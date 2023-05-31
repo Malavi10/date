@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <center>
+        <h1>Date Set Methods</h1>
+        <p style="font-size: 17px;">Set Date methods let you set date values (years, months, days, hours, minutes, seconds, milliseconds) for a Date Object.</p>
+    </center>
+
+    <div class="block1">
+        <h3>Set Full Year</h3>
+        <p>The setFullYear() method sets the year of a date object.</p>
+        <p id="sfy">The year can be changed</p>
+        <button id="btn" onclick="SFY()">setFullYear(2020)</button>
+    </div>
+
+    <div class="block2">
+        <h3>Set Month</h3>
+        <p>The setMonth() method sets the month of a date object (0-11):</p>
+        <p id="sm">The month can be changed</p>
+        <button onclick="SM()">setMonth(1)</button>
+    </div>
+ 
+    <div class="block3">
+        <h3>Set Date</h3>
+        <p>The setDate() method sets the day of a date object (1-31):</p>
+        <p id="sd">The Date can be changed</p>
+        <button onclick="SD()">setDate(15)</button>
+    </div>
+ 
+    <div class="block1">
+        <h3>Set Hours</h3>
+        <p>The setHours() method sets the hours of a date object (0-23):</p>
+        <p id="sh">The Hours can be changed</p>
+        <button onclick="SH()">setHour(22)</button>
+    </div>
+
+    <div class="block2">
+        <h3>Set Minutes</h3>
+        <p>The setMinutes() method sets the minutes of a date object (0-59):</p>
+        <p id="smin">The minutes can be changed</p>
+        <button onclick="SMin()">setMinute(50)</button>
+    </div>
+
+    <div class="block3">
+        <h3>Set Seconds</h3>
+        <p>The setSeconds() method sets the seconds of a date object (0-59):</p>
+        <p id="ss">The seconds can be changed</p>
+        <button onclick="SS()">setSeconds(25)</button>
+    </div>
+
+    <div class="block1">
+        <h3>Set Milliseconds</h3>
+        <p>The setMilliseconds() method sets the Milliseconds of a date object (0-999):</p>
+        <p id="sms">The Milliseconds can be changed</p>
+        <button onclick="SMS()">setMilliseconds(942)</button>
+    </div>
+
+
+
+    <script src="code.js"></script>
+</body>
+</html>

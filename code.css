@@ -1,0 +1,26 @@
+.block1{
+    text-align: center;
+    background-color: rgb(223, 238, 253);
+    max-width: 50%;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.block2{
+    text-align: center;
+    background-color: rgb(179, 216, 250);
+    max-width: 50%;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.block3{
+    text-align: center;
+    background-color: rgb(149, 203, 250);
+    max-width: 50%;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+}
